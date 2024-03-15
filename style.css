@@ -45,9 +45,24 @@ ul {
     font-weight: 500;
 }
 
+.nav-link:hover {
+    color: #ffb017 !important;
+
+}
+
 .nav-link.active {
     color: #ffb017 !important;
     font-weight: 700;
+}
+
+.nav-link-icon {
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .hero-section {
@@ -323,5 +338,9 @@ ul {
     .form_input input,
     .form_input textarea {
         margin: 0;
+    }
+
+    .navbar {
+        flex-wrap: nowrap;
     }
 }
